@@ -1,0 +1,64 @@
+/*css cho form*/
+h2 {
+	text-align: center;
+}
+#main-form {
+	width: 500px;
+	height: 400px;
+	margin-left: 35%;
+	border: 10px solid transparent;	
+	border-image: url("border.png") 30 round;
+	background-color: rgb(99, 121, 155, 0.2);
+}
+
+label {
+	font-family: Time New Roman;
+	text-align: left;
+	margin-top: 5px;
+}
+
+input:not(.gender) {
+
+	width: 200px;
+	height: 25px;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+textarea {
+	width: 200px;
+	height: 40px;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+#gender {
+	margin-top: 10px;
+}
+
+.hobbie {
+	width: 50px !important;
+	border-radius: 5px !important;
+	height: 15px !important;
+}
+
+select {
+	width: 300px;
+	border-radius: 10px;
+	height: 30px;
+}
+
+.phone {
+	width: 66px !important; 
+	border-radius: 5px;
+}
+
+button {
+	border-radius: 10px;
+	width: 70px;
+	height: 30px;
+	background-color: green;
+	margin-top: 10px;
+}
+
+
