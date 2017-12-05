@@ -38,11 +38,11 @@
 					<span style="color: red" id="errPhone"></span>
 				</div>
 				<div id="gender">
-					<input type="radio" name="gender" value="Male"  class="gender" required="true">Male
-					<input type="radio" name="gender" value="Female"  class="gender" required="true">Female
+					<input type="radio" name="gender" value="Male"  class="gender" >Male
+					<input type="radio" name="gender" value="Female"  class="gender">Female
 				</div>
 				<div>
-					<textarea placeholder="address" name="address"></textarea>
+					<textarea name="address"></textarea>
 				</div>
 				<div>
 					<input type="checkbox" name="hobbies" class="hobbie">By Bike

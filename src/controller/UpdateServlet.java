@@ -34,14 +34,14 @@ public class UpdateServlet extends HttpServlet {
 		String id = request.getParameter("id");
 		String firstName = request.getParameter("nameFirst");
 		String lastName = request.getParameter("nameLast");
-		String age = request.getParameter("ageEmp");
 		String address = request.getParameter("address");
+		String age = request.getParameter("ageEmp");
 
 		Employee employee = new Employee();
 		employee.setId(Integer.parseInt(id));
 		employee.setName(firstName+lastName);
-		employee.setAge(Integer.parseInt(age));
 		employee.setAddress(address);
+		employee.setAge(Integer.parseInt(age));
 		
 		EmployeeBus bus = new EmployeeBus();
 		try {

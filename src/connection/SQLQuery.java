@@ -7,4 +7,6 @@ public class SQLQuery {
 	public static final String UPDATE = "UPDATE nhanvien SET name = ?, age = ?, address = ? WHERE id = ?";
 	public static final String DELETE = "DELETE FROM nhanvien WHERE id = ?";
 	
+	public static final String EXIST_ACC = "SELECT * FROM admin WHERE username = ? AND password = ?";
+	
 }

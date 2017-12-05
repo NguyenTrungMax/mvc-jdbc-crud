@@ -27,7 +27,7 @@
 					name="ageEmp">
 			</div>
 			<div>
-				<textarea placeholder="address" name="address"></textarea>
+				<textarea name="address"></textarea>
 			</div>
 			<div>
 				<button type="submit" value="login">update</button>

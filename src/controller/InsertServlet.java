@@ -38,8 +38,8 @@ public class InsertServlet extends HttpServlet {
 		
 		Employee employee = new Employee();
 		employee.setName(firstName+lastName);
-		employee.setAge(Integer.parseInt(age));
 		employee.setAddress(address);
+		employee.setAge(Integer.parseInt(age));
 		
 		EmployeeBus bus = new EmployeeBus();
 		try {
